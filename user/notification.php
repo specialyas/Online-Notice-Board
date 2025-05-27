@@ -3,7 +3,7 @@ $q=mysqli_query($conn,"select * from notice where user='".$_SESSION['user']."'")
 $rr=mysqli_num_rows($q);
 if(!$rr)
 {
-echo "<h2 style='color:red'>You do not hav any notice at the moment !!!</h2>";
+echo "<h2 style='color:red'>You do not have any notice at the moment !!!</h2>";
 }
 else
 {
