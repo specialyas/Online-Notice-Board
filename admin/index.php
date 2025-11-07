@@ -58,6 +58,8 @@ $total_notices = $notice_data['total_notices'];
       </div>
     </nav>
 
+    <!-- sidebar  -->
+
     <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
     
     <div class="sidebar" id="sidebar">
